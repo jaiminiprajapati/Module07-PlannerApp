@@ -21,5 +21,11 @@ $(document).ready(function(){
         } else{
             description.addClass("future");
         }
+
+        // Add the time block
+        row.append(time, description, saveBtn);
+        $(".container").append(row);
+
+        
     }
 });
