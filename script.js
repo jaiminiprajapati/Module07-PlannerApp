@@ -26,6 +26,10 @@ $(document).ready(function(){
         row.append(time, description, saveBtn);
         $(".container").append(row);
 
-        
+        // Save events in local storage on click of save button
+        saveBtn.on("click", function(){
+            var value = description.val();
+            localStorage.setItem(i, value);
+        });
     }
 });
