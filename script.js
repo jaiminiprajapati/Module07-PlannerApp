@@ -31,5 +31,9 @@ $(document).ready(function(){
             var value = description.val();
             localStorage.setItem(i, value);
         });
+
+        // Load saved events from local storage on refresh of page
+        var getValue = localStorage.getItem(i);
+        description.val(getValue);
     }
 });
