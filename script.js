@@ -13,6 +13,13 @@ $(document).ready(function(){
             .addClass("col-1 saveBtn")
             .html('<span><i class="fas fa-save"></i></span>')
         
-        
+        // color code each time block
+        if (dayjs().hour() > i){
+            description.addClass("past");
+        } else if (dayjs().hour() === i){
+            description.addClass("present");
+        } else{
+            description.addClass("future");
+        }
     }
 });
