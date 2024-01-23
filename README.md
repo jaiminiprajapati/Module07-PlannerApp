@@ -1,5 +1,7 @@
 # 📅 Calendar Application
 
+**Note:** The HTML file and the CSS file were provided by the Instructor/TA. Further changes  were made to add the  functionality in the javascript file for the working of the application.
+
 ## Overview
 The Calendar Application is a sleek and user-friendly tool designed for busy employees to efficiently manage their daily schedules. This application features a modern interface with dynamically updated HTML and CSS powered by jQuery. Leveraging the Day.js library, date and time operations are seamlessly handled in the browser.
 
@@ -57,8 +59,6 @@ Events entered by the user persist between page refreshes, allowing users to clo
 4. Click on a timeblock to enter details for an event.
 5. Click the "Save" button in the timeblock to store the event in your local storage.
 6. Your events will persist between page refreshes.
-
-Certainly! Here's the Resources section:
 
 ## 📚 Resources
 
