@@ -4,9 +4,15 @@ $(document).ready(function(){
 
     // Generate timeblocks
     for (let i = 9; i <=17; i++){
-        let row = $("<div>");
-        let time = $("<div>");
-        let description = $("<textarea>");
-        let saveBtn = $("<button>");
+        let row = $("<div>").addClass("row");
+        let time = $("<div>")
+            .addClass("col-1 hour")
+            .text(dayjs().hour(i).format("h A"));
+        let description = $("<textarea>").addClass("col-10 desctiption");
+        let saveBtn = $("<button>")
+            .addClass("col-1 saveBtn")
+            .html('<span><i class="fas fa-save"></i></span>')
+        
+        
     }
 });
