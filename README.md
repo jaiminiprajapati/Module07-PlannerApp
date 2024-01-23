@@ -32,20 +32,20 @@ Events entered by the user persist between page refreshes, allowing users to clo
 
 ## 💻 Technical Details
 
-    ### **Frontend:**
-    - **HTML:** The structure of the application is built using HTML to create a well-organized and semantic layout.
+### **Frontend:**
+- **HTML:** The structure of the application is built using HTML to create a well-organized and semantic layout.
 
-    - **CSS:** Styling is applied using CSS to ensure an attractive and responsive design, providing a seamless user experience.
+- **CSS:** Styling is applied using CSS to ensure an attractive and responsive design, providing a seamless user experience.
 
-    - **Bootstrap:** The application leverages Bootstrap to enhance the responsiveness and aesthetic appeal of the user interface. Bootstrap components and utilities are utilized for efficient layout and styling.
+- **Bootstrap:** The application leverages Bootstrap to enhance the responsiveness and aesthetic appeal of the user interface. Bootstrap components and utilities are utilized for efficient layout and styling.
 
-    - **jQuery:** The dynamic HTML and CSS are powered by jQuery, facilitating smooth interactions and updates without page reloads.
+- **jQuery:** The dynamic HTML and CSS are powered by jQuery, facilitating smooth interactions and updates without page reloads.
 
-    ### **Date and Time Handling:**
-    - **Day.js:** Integrated to handle date and time operations seamlessly in the browser.
+### **Date and Time Handling:**
+- **Day.js:** Integrated to handle date and time operations seamlessly in the browser.
 
-    ### **Storage:**
-    - **Local Storage:** Employed to save and retrieve user-entered event details, ensuring persistence between page refreshes.
+### **Storage:**
+- **Local Storage:** Employed to save and retrieve user-entered event details, ensuring persistence between page refreshes.
 
 ## 🚦 Getting Started
 1. Open the application in your web browser.
